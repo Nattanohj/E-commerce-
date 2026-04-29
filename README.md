@@ -23,6 +23,8 @@ Sistema básico de tienda online desarrollado en PHP con arquitectura MVC.
 4. Importar archivo `.sql`
 5. Iniciar XAMPP: Apache + MySQL
 6. Acceder: `http://localhost/techhub_store/public/`
+**Nota:** La base de datos está configurada en el puerto **3307**.
+> Si tu XAMPP usa el puerto 3306, debes cambiar el puerto en `config/database.php`
 
 ## Credenciales
 - **Email:** jhonattan@email.com
