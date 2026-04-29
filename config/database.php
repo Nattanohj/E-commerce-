@@ -2,7 +2,7 @@
 
 class Database {
     private $host = "localhost";
-    private $db_name = "techhub_store";
+    private $db_name = "techhub_store2";
     private $username = "root";
     private $password = "";
     private $conn;

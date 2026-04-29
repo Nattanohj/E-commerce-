@@ -1,0 +1,148 @@
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+h2 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+
+.login {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.login p {
+    font-size: 16px;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+
+.productos,
+.carrito {
+    background-color: #ffffff;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+.productos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.productos th {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.productos td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.productos tr:hover {
+    background-color: #f1f5f9;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+.productos button {
+    background-color: #16a34a;
+}
+
+.productos button:hover {
+    background-color: #15803d;
+}
+
+
+.carrito button {
+    background-color: #dc2626;
+}
+
+.carrito button:hover {
+    background-color: #b91c1c;
+}
+
+
+.carrito p {
+    background-color: #f9fafb;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+}
+
+.carrito a {
+    text-decoration: none;
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #d1d5db;
+    max-width: 850px;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .login,
+    .productos,
+    .carrito {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .productos table {
+        font-size: 14px;
+    }
+
+    .productos th,
+    .productos td {
+        padding: 8px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
